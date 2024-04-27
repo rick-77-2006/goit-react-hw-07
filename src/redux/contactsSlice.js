@@ -65,13 +65,4 @@ export const selectFilteredContacts = createSelector(
   }
 );
 
-
-/*export const selectFilteredContacts = createSelector(
-  (state) => state.contacts.items,
-  (state) => state.filters.name,
-  (contacts, filterName) => {
-    return contacts.filter(contact => contact.name.includes(filterName));
-  }
-);*/
-
 export const contactsReducer = contactsSlice.reducer;
