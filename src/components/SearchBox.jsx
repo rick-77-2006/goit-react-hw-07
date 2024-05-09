@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { changeFilter, selectNameFilter } from 'src/redux/filtersSlice';
+import { changeFilter, selectNameFilter } from '../redux/filtersSlice';
 import css from './SearchBox.module.css';
-import { selectError, selectIsLoading } from 'src/redux/contactsSlice';
+import { selectError, selectIsLoading } from '../redux/contactsSlice';
 
 const SearchBox = () => {
   const dispatch = useDispatch();
@@ -27,3 +27,4 @@ const SearchBox = () => {
 };
 
 export default SearchBox;
+

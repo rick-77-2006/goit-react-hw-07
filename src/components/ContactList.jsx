@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
-import { selectFilteredContacts } from 'src/redux/contactsSlice';
-import Contact from '../Contact/Contact';
+import { selectFilteredContacts } from '../redux/contactsSlice';
+import Contact from './Contact';
 
 const listItemStyles = {
   display: "flex",
